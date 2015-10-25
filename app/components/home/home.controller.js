@@ -118,13 +118,6 @@
                     deferred.reject(error);
                     console.log("requestService Error: " + JSON.stringify(error));
                 });
-
-                
-
-            // subsections
-            vm.col0heading = "Subsections";
-            vm.col0text = "I may populate this with a microservice! Or have this be a separate view. This template uses Angular UI which is better than using the Angular router in my opinion.";
-
             return vm;
        }
 })();
